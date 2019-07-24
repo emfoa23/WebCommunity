@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 4000;
 
-app.set("view engine", "mustache");
+// app.set("view engine", "mustache");
 
 app.get("/", function(req, res){
 	res.render("index");
