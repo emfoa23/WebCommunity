@@ -2,7 +2,11 @@
 Node.js 스터디를 위한 웹커뮤니티 만들기 입니다.
 재밌게 하즈앙
 ## Enviornment
-* Node.js
+* Node.js (v.12.6.0)
+* Express (v.4.16.1)
+* Pug (v.2.0.0)
+* jQuery (v.3.4.1)
+* Bootstrap (v.4.3.1)
 ## What's included
     WebCommunity/
     ├── bin/
