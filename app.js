@@ -2,10 +2,11 @@ const express = require('express');
 const app = express();
 const port = 4000;
 
-// app.set("view engine", "mustache");
+app.set("view engine", "ejs");
+app.engine("html", require("ejs").renderFile);
 
 app.get("/", function(req, res){
-	res.render("index");
+	res.render("index.html");
 });
 
 app.listen(port, '0.0.0.0', function(err){
