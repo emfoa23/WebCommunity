@@ -1,0 +1,26 @@
+{
+  "name": "webcommunity",
+  "version": "1.0.0",
+  "description": "Node.js 스터디를 위한 웹커뮤니티 만들기 입니다. 재밌게 하즈앙 ## Enviornment * Node.js ## Team Member * 차상순 (고려대학교 컴퓨터학과) * 윤정호 (고려대학교 경제학과) * 안병욱 (고려대학교 컴퓨터학과)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emfoa23/WebCommunity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emfoa23/WebCommunity/issues"
+  },
+  "homepage": "https://github.com/emfoa23/WebCommunity#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "pug": "^2.0.4"
+  }
+}
