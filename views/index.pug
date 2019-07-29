@@ -1,0 +1,97 @@
+extends layout
+
+block content
+  //h1= title
+  //p Welcome to #{title}
+
+  .container
+    .row
+      .col-lg-3
+        form
+          .form-group
+            br
+            input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='메뉴 글 댓글 검색')
+          button.btn.btn-primary(type='submit') 검색
+        h4.my-4 자주 가는 메뉴
+        .list-group
+          a.list-group-item(href='#') 신설 메뉴
+          a.list-group-item(href='#') ㄱ 태황제
+          a.list-group-item(href='#') ㄱ 박짐공
+          a.list-group-item(href='#') 바이나인
+          a.list-group-item(href='#') 톰홀랜드
+          a.list-group-item(href='#') 더보기
+          a.list-group-item(href='#') 신설요청
+      .col-lg-9
+        br
+        .row
+          .col-lg-4.col-md-6.mb-4
+            .card.h-100
+              .card-header
+                h4.card-title
+                  small 인티포털 초록글 최신글
+              .card-body
+                a(href='#') 동생 목에 식 아이
+                br
+                a(href='#') 한국의 국민성을 알 수 있는
+                br
+                a(href='#') 동색 목에 식칼 댄 아이
+                br
+                a(href='#') 한국의 국민성을 알 수 있는
+                br
+              .card-footer
+                a(href='#') 국제대회에서 춸권
+                br
+                a(href='#') 국제대회에서 춸권
+                br
+                a(href='#') 국제대회에서 춸권
+                br
+                a(href='#') 국제대회에서 춸권
+                br
+          .col-lg-4.col-md-6.mb-4
+            .card.h-100
+              .card-header
+                h4.card-title
+                  small 인티뮤직 인티영상 초록글
+              .card-body
+                a(href='#') [MV] 블랙핑크 KILL THIS LOVE
+                br
+                a(href='#') [MV] 블랙핑크 KILL THIS LOVE
+                br
+                a(href='#') [MV] 블랙핑크 KILL THIS LOVE
+                br
+                a(href='#') [MV] 블랙핑크 KILdfL THIS LOVE
+                br
+              .card-footer
+                a(href='#') [프듀] 컨셉평가
+                br
+                a(href='#') 넷플릭스 더 윗쳐
+                br
+                a(href='#') [프듀] 컨셉평가
+                br
+                a(href='#') 넷플릭스 더 윗처
+                br
+          .col-lg-4.col-md-6.mb-4
+            .card.h-100
+              .card-header
+                p 인기 뮤직비디오
+              a(href='#')
+                img.card-img-top(src='https://i.ytimg.com/vi/IHNzOHi8sJs/maxresdefault.jpg' alt='')
+              .card-body
+                h4.card-title
+              .card-footer
+                small.text-muted [MV] 블랙핑크 노래제목
+          .col-lg-4.col-md-6.mb-4
+            a(href='#')
+              img.card-img-top(src='https://t1.daumcdn.net/cfile/tistory/993F42385C6673812A' alt='')
+          .col-lg-4.col-md-6.mb-4
+            .card-header
+              p 인티영상 인기글
+            a(href='#')
+              img.card-img-top(src='data:image/jpeg;base64,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' alt='')
+          .col-lg-4.col-md-6.mb-4
+            .card.h-100
+              .card-header
+                p 뉴스
+              .card-body
+                p.card-text [화보] 트와이스 나연 ....
+              .card-footer
